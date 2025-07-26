@@ -1,0 +1,20 @@
+
+
+.kanban-column {
+            min-height: 300px;
+            transition: all 0.3s ease;
+        }
+        .kanban-column:hover {
+            transform: translateY(-5px);
+        }
+        .task-card {
+            transition: all 0.2s ease;
+        }
+        .task-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .drag-over {
+            background-color: #f0f9ff;
+            border: 2px dashed #7dd3fc;
+        }
